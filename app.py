@@ -45,9 +45,9 @@ async def on_ready():
         "機器人名稱": bot.user.name,
         "機器人ID": bot.user.id,
         "開發者": "Co2_tw",
-        "開發者網站": "https://你的網站.com",
+        "開發者網站": "https://c-power.top",
         "版本": "1.0.0",
-        "描述": "這是一個功能強大的 Discord 機器人。",
+        "描述": "這是一個速買配開單 Discord 機器人。",
         "狀態": f"連接至 {len(bot.guilds)} 個伺服器"
     }
     print("=== 機器人已啟動 ===")
