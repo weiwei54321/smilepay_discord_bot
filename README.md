@@ -29,6 +29,7 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
+
 ## 指令教學
