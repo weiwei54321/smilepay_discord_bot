@@ -94,7 +94,7 @@ async def pay(ctx, 金額: discord.Option(int, "金額", min_value=15, max_value
     smilepay_api = "https://ssl.smse.com.tw/api/SPPayment.asp"  # API
 
     payload = {
-        "Dcvc": "17647",# 商家代號
+        "Dcvc": "",# 商家代號
         "Verify_key": "",# 速買配密鑰
         "Rvg2c": "1",
         "Od_sob": 訂單號,
