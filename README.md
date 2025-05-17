@@ -46,4 +46,4 @@ pip install -r requirements.txt
 
 ---
 
-## 請勿販售...
+## 請勿販售... 記得幫我按⭐️⭐️
