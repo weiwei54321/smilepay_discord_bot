@@ -16,7 +16,8 @@
 
 1. 建立一個 Discord Bot 並取得 Token。
 2. 安裝套件
-3. 執行機器人主程式：
+3. 自行改一改app.py的資料，bot token記得改
+4. 執行機器人主程式：
     ```bash
     python bot.py
     ```
