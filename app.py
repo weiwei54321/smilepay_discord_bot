@@ -153,10 +153,10 @@ async def pay(ctx, 金額: discord.Option(int, "金額", min_value=15, max_value
             embed.add_field(name="全家代碼付款教學", value=" https://www.youtube.com/watch?v=MTPEwUcoBTE&t", inline=False)
         if atm_no:
             embed.add_field(name="虛擬帳號", value=f"`{atm_no}`", inline=False)
-            embed.add_field(name=">>備註<<", value="**為了防止第三方詐騙, 請務必要截圖付款記錄以及註明跟夜雀商城購買OOO商品 沒有的話不發貨也不退款**", inline=False)
+            embed.add_field(name=">>備註<<", value="**為了防止第三方詐騙, 請務必要截圖付款記錄以及註明**", inline=False)
 
         embed.add_field(name="付款期限", value=pay_end or "無", inline=False)
-        embed.set_footer(text="請在時間內完成付款，避免訂單失效｜需要QRcode？自行用/條碼 <超商代碼>")
+        embed.set_footer(text="請在時間內完成付款，避免訂單失效｜此指令由 [co2_tw製作](https://github.com/weiwei54321/smilepay_discord_bot)")
         await ctx.respond(embed=embed)
 
     except Exception as e:
